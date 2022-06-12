@@ -1,0 +1,7 @@
+runtime: nodejs
+vm: true
+
+env_variables:
+MYSQL_DSN: mysql:unix_socket=/cloudsql/bangkit-352714:us-central1:userdb;dbname=userDB
+MYSQL_USER: root
+MYSQL_PASSWORD: 'password1#'
